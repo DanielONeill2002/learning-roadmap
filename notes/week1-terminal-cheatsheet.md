@@ -2,7 +2,7 @@
 
 ## Navigating
 - `pwd`, print working directory, displays the full pathing to the current directory you are in
-- `ls`, list, provides a list af all of the contents within the directory you specify to look into
+- `ls`, list, provides a list af all of the contents within the directory you specify to look into, `-attributes hidden` will help identify only hidden files, `-force` will idenitfy all files including thos which are hidden 
 - `cd`, change directory, navigational tool within the terminal can use absolute navigation from the root source or relative based from the current directory you are within
 - `tab`, acts as a shortcut in navigation can help autocomplete directory or file names
 - `.`, refers to the current directory you are in
@@ -19,7 +19,10 @@
 - `mv`, will move a file, if moved to the same location with a different name it will simply rename the file
 
 ## Safety Habits
-- `rm`, remove, will delete specified contents, always do a check using ls beforehand to make sure you are only removing what you want to remove, there's no recycling bin
+- `rm`, remove, will delete specified contents, always do a check using ls beforehand to make sure you are only removing what you want to remove, there's no recycling bin, `del, rmdir, ri` are all aliases of rm
+- `-WhatIf`, attaching this will perform a dry run, provides an output stating what the output of running the command will be without actually running it e.g What if: Performing the operation "Remove Directory" on target "C:\Projects\practice\drill\".
+- `-recurse`, means to apply the command to the thing and everything inside it to any depth
+- The key habit for safetu is to run the check, read the check result against the desired goal and ensure output matches the desired outcome, the result of the read will determine whether the next command acted is a fix to reach the desired goal or a commit/run
 
 ## Wildcards
 - `*`, wildcard, means that anything matches e.g. *.txt will filter for every .txt file
