@@ -30,7 +30,7 @@
 
 ## Branches
 - A branch is a moveable pointer to a commit, commiting move the pointer forwards one link
-- The main branch is represents the real state
+- The real state is represented as the main branch
 - although termed the main branch it has no prioritisation over other branches git considers all branches equally
 - the pointer we currently stand on is termed the HEAD
 
