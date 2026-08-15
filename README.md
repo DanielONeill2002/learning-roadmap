@@ -2,7 +2,7 @@
 
 **Owner:** Daniel O'Neill · **Started:** August 2026 · **Pace:** ~8–10 hrs/week · **Horizon:** ~46 weeks (~11 months)
 
-You've shipped real tools (ads-generator, scrapers, image pipelines) by directing AI. What you can't yet do is read, debug, or design them yourself. This roadmap fixes that: you learn each skill in order, then prove it by building five portfolio projects **with your own hands**. The finish line is concrete: *you can open `C:\Projects\ads-generator` and understand how it works.*
+You've shipped real tools (ads-generator, scrapers, image pipelines) by directing AI. This roadmap aims to assist developing AI independent skillsets: you learn each skill in order, implement the skills learnt in five portfolio projects **with your own hands**. The finish line is concrete: *you can open `C:\Projects\ads-generator` and understand how it works.*
 
 ---
 
