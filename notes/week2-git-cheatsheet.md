@@ -34,6 +34,9 @@
 - although termed the main branch it has no prioritisation over other branches git considers all branches equally
 - the pointer we currently stand on is termed the HEAD
 
+## Command line vs git UTF interpretation
+- when using the > command to place text into a file it will assign them as UTF16 which git will detect as binary, it is best to insert in the file itself and ensure it is saved as UTF8
+
 ## Command dictionary
 - `git status` - breakdown of where everything in the repository is
 - `git add` - copies the snapshot from the working directory to the staging area
